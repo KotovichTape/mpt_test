@@ -1,0 +1,31 @@
+@keyframes anim_menu{
+    from{
+       padding-bottom: 50px;
+    }
+    to{
+        padding-bottom: 0px;
+    }
+ 
+}
+.img_logo{
+    height:115px;
+    max-width:164px;
+    margin: 10px 10px 30px 40px;
+}
+
+.main_menu{
+    color: #ffffff;
+    background-color: #7c9fb0;
+    border-color: #7c9fb0;display: inline-block;
+    font-weight: 700;cursor: pointer;border: 1px solid transparent;background: transparent;outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;padding: 10px 10px;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 0;-moz-transition: 0.2s all ease;-webkit-transition: 0.2s all ease;-o-transition: 0.2s all ease;transition: 0.2s all ease;color: #ffffff;background-color: #7c9fb0;
+    border-color: #7c9fb0;
+}
+.main_menu_li:hover{
+    animation-name: anim_menu;
+    animation-duration: 2s;
+}
